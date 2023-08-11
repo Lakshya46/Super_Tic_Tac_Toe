@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 
 var singUser = false
 class PlayerMode : AppCompatActivity() {
@@ -16,9 +17,7 @@ class PlayerMode : AppCompatActivity() {
         singleplayerbtn = findViewById(R.id.splayer)
         multiplayerbtn = findViewById(R.id.mplayer)
         singleplayerbtn.setOnClickListener {
-
-            startActivity(Intent(this, SingleMode::class.java))
-            singUser = true
+             Toast.makeText(this , "coming soon!", Toast.LENGTH_SHORT).show()
         }
 
 

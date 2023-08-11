@@ -1,17 +1,16 @@
 # Tic Tac Toe
 
-This is a *Tic Tac Toe* android app, developed by me in my first year of learning android development. 
+This " Super Tic Tac Toe APK" is a simple Android application that brings the classic game of Tic Tac Toe to the digital realm. The application offers a user-friendly interface and allows players to engage in the traditional game with a virtual opponent or with another player on the same device 
 
 ## Preview
-This app is build with Java and Kotlin in Android Studio.
-You will find some basic features after the app launches. You are free to choose between two different play modes (Computer mode  is launching soon).
-In Multiplayer Mode, you can enter players names. Explore more features by yourself! 
+This application was created in Android Studio using Java and Kotlin. After the application launches,
+You will find some basic features after the app launches. The app offers two primary game modes: "Player vs. Player" (friend) and "Player vs. AI(Computer mode is launching soon).You are free to choose between two different play modes
+In friend mode, you can enter players names. Explore additionl features on your own.
 
 <!-- ![Alt text](./preview.png) -->
 <!-- HTML -->
 <div align="center" >
 <img src ="./preview/img1.png" alt="Alt img" width="140"  height = "250" >
-<img src="./preview/img2.png" alt="Alt img" width="140"  height = "250">
 <img src="./preview/img3.png" alt="Alt img" width="140"  height = "250">
 </div>
 
@@ -28,14 +27,13 @@ You will need Android Studio 2022.1.1 Patch 1 or above.
 - Enjoy!
 
 ## Installation
-- Download the latest apk version from the Release (gitHub Repository).
-- Allow your android device to install from the unknown source if not allowed.
+- From the Release (gitHub Repository), download the most recent apk version.
+-  If installing from an unknown source is not permitted on your Android device then allow it.
 - Find the app in the app drawer of your android device.
 - Enjoy!
 
-## Future Plans
-
-- Versus Computer Mode.
-- Visual improvements.
-- implementing AI to add three difficulty mode.
-- Your ongoing games will be automatically saved, so you can resume playing right from where you left off.
+## Future Plans.
+- Adding AI feature  which would allow user to play with computer.
+- Incorporating online multiplayer functionality that would enable players to compete with friends or strangers from different locations, enhancing the application's social aspect.
+-  Adding customization features, such as the ability to select different themes, symbols, or board sizes, could offer a unique touch to the application.
+- Adding save game feature, so that it would allow user to save ongoing game and can be played again from were it's left off.
