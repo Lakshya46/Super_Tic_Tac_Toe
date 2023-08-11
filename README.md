@@ -11,7 +11,6 @@ In Multiplayer Mode, you can enter players names. Explore more features by yours
 <!-- HTML -->
 <div align="center" >
 <img src ="./preview/img1.png" alt="Alt img" width="140"  height = "250" >
-<img src="./preview/img2.png" alt="Alt img" width="140"  height = "250">
 <img src="./preview/img3.png" alt="Alt img" width="140"  height = "250">
 </div>
 
