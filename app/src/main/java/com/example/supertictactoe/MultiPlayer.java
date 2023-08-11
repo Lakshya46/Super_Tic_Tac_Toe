@@ -55,8 +55,13 @@ public class MultiPlayer extends AppCompatActivity {
         combinationList.add(new int[]{0, 4, 8});
         final String getplayerOneName = getIntent().getStringExtra("playerOne");
         final String getplayerTwoName = getIntent().getStringExtra("playerTwo");
-            playerOnename.setText(getplayerOneName);
-            playerTwoname.setText(getplayerTwoName);
+        String str1 = getplayerOneName;
+        String out1 = str1.substring(0,1).toUpperCase() +str1.substring(1);
+
+        String str2 = getplayerTwoName;
+        String out2 = str2.substring(0,1).toUpperCase() +str2.substring(1);
+            playerOnename.setText(out1 );
+            playerTwoname.setText(out2 );
 
         image1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -161,8 +166,9 @@ public class MultiPlayer extends AppCompatActivity {
             },1500);
 
             if (checkPlayerWin()) {
-
-                WinDialog winDialog = new WinDialog(MultiPlayer.this, playerOnename.getText().toString() + " has won the match", MultiPlayer.this);
+                 String str = playerOnename.getText().toString();
+                 String out = str.substring(0,1).toUpperCase() +str.substring(1);
+                WinDialog winDialog = new WinDialog(MultiPlayer.this, out + " has won the match!", MultiPlayer.this);
                 winDialog.setCancelable(false);
 
                 winDialog.show();
@@ -190,7 +196,9 @@ public class MultiPlayer extends AppCompatActivity {
                 }
             },1500);
             if (checkPlayerWin()){
-                WinDialog winDialog = new WinDialog(MultiPlayer.this, playerTwoname.getText().toString() + " has won the match", MultiPlayer.this);
+                String str = playerTwoname.getText().toString();
+                String out = str.substring(0,1).toUpperCase() +str.substring(1);
+                WinDialog winDialog = new WinDialog(MultiPlayer.this, out + " has won the match!", MultiPlayer.this);
                 winDialog.setCancelable(false);
                 winDialog.show();
 
