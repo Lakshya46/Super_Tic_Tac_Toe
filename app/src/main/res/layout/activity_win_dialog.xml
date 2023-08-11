@@ -28,7 +28,7 @@
         android:layout_width="387dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:background="@drawable/roundbackblue"
+        android:background="@drawable/roundpurple"
         android:text="Start Again"
 
         android:textColor="@color/white" />

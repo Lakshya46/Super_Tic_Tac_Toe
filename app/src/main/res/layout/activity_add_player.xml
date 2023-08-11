@@ -25,7 +25,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="50dp"
-        android:background="@color/dark_blue"
+        android:background="@drawable/darkblueborder"
         android:orientation="horizontal">
 
         <ImageView
@@ -37,17 +37,19 @@
             android:layout_marginLeft="20dp" />
 
         <EditText
-            android:layout_width="match_parent"
             android:id="@+id/Player1name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/dark_blue"
+
+            android:hint="Player 1"
             android:inputType="text"
             android:maxLines="1"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
+            android:singleLine="true"
             android:textColor="#ffffff"
-            android:hint="Player 1"
-            android:background="@color/dark_blue"
-            android:textColorHint="@color/lightwhite"/>
+            android:textColorHint="@color/lightwhite" />
 
 
 
@@ -65,7 +67,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="10dp"
-        android:background="@color/dark_blue"
+        android:background="@drawable/darkblueborder"
         android:orientation="horizontal">
 
         <ImageView
@@ -80,7 +82,7 @@
             android:layout_width="match_parent"
             android:id="@+id/Player2name"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="10dp"
             android:layout_marginEnd="20dp"
             android:textColor="#ffffff"
             android:hint="Player 2"
@@ -98,5 +100,5 @@
         android:layout_marginTop="40dp"
         android:text="Start Game"
         android:textColor="@color/white"
-        android:background="@drawable/roundbackblue"/>
+        android:background="@drawable/roundpurple"/>
 </LinearLayout>
