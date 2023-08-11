@@ -35,7 +35,7 @@ You will need Android Studio 2022.1.1 Patch 1 or above.
 
 ## Future Plans
 
-- Versus Computer Mode
-- Visual improvements
-- implimanting AI TO add three difficulty mode.
+- Versus Computer Mode.
+- Visual improvements.
+- implimanting AI to add three difficulty mode.
 - Your ongoing games will be automatically saved, so you can resume playing right from where you left off.
